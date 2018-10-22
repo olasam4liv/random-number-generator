@@ -23,7 +23,7 @@ function generateNumbers() {
     
     // get 9 random digits from the array and append to num.
     for(var j=0; j <10; j++) {
-       
+        //index in digits
         for(var i=0; i<=8; i++) {
             var digit = digits[Math.floor(Math.random() * digits.length)];
             num = num + digit;
